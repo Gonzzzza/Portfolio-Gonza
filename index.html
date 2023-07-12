@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gonza Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Link icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="hero-header" id="home">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-g"></i>
+                    <div class="logo-text">Gonza Trevisani</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <!-- <li><a href="#services">Services</a></li> -->
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container-home">
+                <div class="hero-pic">
+                    <img src="images/gonzaLink.jpeg" alt="profile pic">
+                </div>
+                <div class="hero-text">
+                    <h5>Hi I'm <span class="input">Frontend Developer</span></h5>
+                    <h1>Gonzalo Trevisani</h1>
+                    <p>Hello, my name is Gonzalo Trevisani, I am a full stack developer oriented to the frontend. <br>
+                    I am a lover of technology and programming. With a continuous learning mentality, willing to learn new technologies and methodologies to meet project objectives. <br>
+                    I am always willing to learn about the world of programming.
+                    </p>
+                    <div class="btn-group">
+                        <a href="images/Gonzalo Trevisani CV.pdf" download class="btn active">Download CV</a>
+                        <a href="#contact" class="btn">Contact</a>
+                    </div>
+
+                    <div class="social">
+                        <a target="_blank" href="https://www.facebook.com/nahuel.trevisani/"><i class="fa-brands fa-facebook"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/gonzalo-trevisani-todero-2b9899255/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/gonza.trevisani/?hl=es"><i class="fa-brands fa-instagram"></i></a>
+                        <a target="_blank" href="https://twitter.com/GonzzaDev"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <div class="container-about">
+            <div class="col1">
+                <img src="images/gonza portfolio.jpeg" alt="">
+            </div>
+            <div class="col2">
+                <h1 class="sub-title">About me</h1>
+                <p>I am a productive person, always looking for something new to learn and do. I have been in the world of programming for a year and at this moment I am looking for my first challenge in a company that gives me the opportunity to learn and continue to grow professionally and personally.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                    <p class="tab-links" onclick="openTab('experiencie')">Experience</p>
+                    <p class="tab-links" onclick="openTab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Full Stack Web Developer</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experiencie">
+                    <ul>
+                        <li><span>I don't have work experience. i'm looking for my first job as a junior developer.
+                        I'm very eager to learn.
+                        </span><br></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022</span><br>Full Stack web developer at Henry</li>
+                        <li><span>2022</span><br>Nodejs at Udemy</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services -->
+    <!-- <div id="services">
+        <div class="container-services">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web design</h2>
+                    <p>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web design</h2>
+                    <p>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web design</h2>
+                    <p>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- ================== Portfolio section ================  -->
+    <div id="portfolio">
+        <div class="container-porfolio">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <!-- <div class="work">
+                    <img src="images/henrypage.avif" class="henry" alt="">
+                    <div class="layer">
+                        <h3>Henry Food Page</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime temporibus</p>
+                        <a target="_blank" href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div> -->
+                <div class="work">
+                    <img src="images/gamepage.avif" alt="">
+                    <div class="layer">
+                        <h3>Videogames Page</h3>
+                        <p>Video game page created with React.js on the front, and sequelize, node.js and postgresql for the backend and the database.</p>
+                        <a target="_blank" href="https://videogame-page-ten.vercel.app/"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/starbuckspage.jpg" alt="">
+                    <div class="layer">
+                        <h3>Starbucks Landing Page</h3>
+                        <p>Landing Page made with HTML, CSS and JavaScript</p>
+                        <a target="_blank" href="https://gonzzzza.github.io/Starbucks-Landingpage/"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/netflixPage.png" alt="">
+                    <div class="layer">
+                        <h3>Netflix Landing Page</h3>
+                        <p>Landing Page made with HTML, CSS and JavaScript</p>
+                        <a target="_blank" href="https://gonzzzza.github.io/netflix-landingpage/"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a target="_blank" href="https://github.com/Gonzzzza" class="btn-see-more">See more</a>
+        </div>
+    </div>
+    <!-- ================== Contact section ================  -->
+    <div id="contact">
+        <div class="container-contact">
+            <h1 class="sub-title">Contact Me</h1>
+            <div class="row">
+                <div class="contact-left">
+                    <p><i class="fas fa-paper-plane"></i>gonzalotrevisani1105@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>1153331677</p>
+                    <div class="social-icons">
+                        <a target="_blank" href="https://www.facebook.com/nahuel.trevisani/"><i class="fa-brands fa-facebook"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/gonzalo-trevisani-todero-2b9899255/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/gonza.trevisani/?hl=es"><i class="fa-brands fa-instagram"></i></a>
+                        <a target="_blank" href="https://twitter.com/GonzzaDev"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <a href="images/Gonzalo Trevisani CV.pdf"  download class="btn-see-more btn2"> Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="https://formsubmit.co/gonzalotrevisani1105@gmail.com" method="POST">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" id="" cols="30" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn-see-more btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Made by Gonzalo Trevisani</p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
+
+    <script>
+        // Creating button click show hide navbar
+        var toggleBtn = document.querySelector('.togglebtn');
+        var nav = document.querySelector('.navlinks');
+        // var links = document.querySelector('.navlinks');
+
+        toggleBtn.addEventListener('click', function(){
+            toggleBtn.classList.toggle('click');
+            nav.classList.toggle('open');
+        })
+        nav.addEventListener('click', function(){
+            toggleBtn.classList.toggle('click');
+            nav.classList.toggle('open');
+        });
+
+        var typed = new Typed('.input', {
+            strings:['Frontend Developer', 'Full Stack web developer'],
+            typedSpeed:20,
+            backSpeed:55,
+            loop:true,
+        });
+        // Boton de seccion de Skills, educacion y experiencia
+
+        var tablinks = document.getElementsByClassName('tab-links');
+        var tabcontents = document.getElementsByClassName('tab-contents');
+
+        function openTab(tabname) {
+            for(tablink of tablinks) {
+                tablink.classList.remove('active-link')
+            }
+            for(tabcontent of tabcontents) {
+                tabcontent.classList.remove('active-tab')
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabname).classList.add('active-tab')
+        }
+
+
+
+    </script>
+</body>
+</html>
